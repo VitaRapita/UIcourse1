@@ -1,0 +1,385 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*мої стилі */
+
+body {
+	background-color: #242426;
+	color:white;
+}
+
+.main {
+	width: 960px;
+    margin: 0 auto;
+}
+header{
+    height: 200px;
+    background-color: #2f2f31;
+    border-radius: 15px;
+}
+a {
+	color: #86bc04;
+}
+.a {
+	margin: 50px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.psw {
+	text-align:right;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	
+}
+.button {
+	background-color: #86bc04;
+	color: white;
+	border-color:#86bc04;
+	border-radius:4px;
+}
+.menu {
+	height: 36px;
+}
+.menu ul{
+	background: #1e1e20;
+	text-align: left;
+	padding-left: 20px;
+}
+.menu ul li {
+	display: inline-block;
+	padding: 20px 10px 20px 0;
+}
+.menu ul li a {
+	color:white;
+	font-family:sans-serif; 
+    text-decoration: none;
+    font-size: 12px;
+}
+.menu ul li a:hover {
+	color: #86bc04; 
+}
+.site {
+	float: left;
+	height: 115px;
+}
+.site p {
+    font-size: 29px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px 0 20px 20px;
+    margin-top: 25px;
+}
+.site p span {
+	color:#86bc04;
+}
+.logo {
+	height:115px;
+}
+.logo img{
+	float: right;
+	height: 75px;
+	width: auto;
+	margin: 20px 10px 20px 20px;
+}
+
+.menu2 {
+	float: left;
+	background-color: #86bc04;
+	height:55px;
+	width:960px;
+}
+
+.menu2 ul li {
+	float: left;
+	font-family: sans-serif;
+	
+}
+.menu2 ul li a {
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	display: block;
+    text-decoration: none;
+    border-right: 1px ridge;
+    padding: 19px 20px;
+}
+.menu2 ul li a:hover {
+    color: #424242;
+	background-color: white; 
+}
+.menu2 ul li input {
+	margin: 17px 0 20px 200px;
+	padding-right: 30px;
+}
+
+.top {
+	margin-top: 20px;
+	width: 960px;
+	height:250px;
+	border-radius: 10px;
+	background-color: #2f2f31;
+}
+.top img {
+	height: 250px;
+	width: 620px;
+	float: left;
+}
+.top_p {
+	float: right;
+	height: 200px;
+	width: 300px;
+	padding-right:10px;
+	margin-top: 10px;
+
+}
+.top_p span {
+	color:#86bc04;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.img {
+	border-radius: 18px;
+}
+.img_1 {
+	border-radius: 16px;
+}
+.content {
+	margin-top: 10px;
+	float: left;
+	margin-right: 25px;
+	width:640px;
+}
+.news{
+    background-color: #2f2f31; 
+    border-radius: 10px  
+}
+.news p{
+	font-weight: bold;
+	font-family: sans-serif;
+	padding: 10px 10px 10px 50px;
+	border-radius: 15px;
+}
+hr{
+	color: #2e2e30;
+	margin: 10px;
+}
+.news ul li{
+    display: inline-block;
+    padding-left: 48px;
+    width: 100px;
+    font-size: 10px;
+    line-height: 17px;
+}
+.news a {
+	font-weight: bold;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+article {
+	background-color: #2f2f31;
+	margin-top: 10px;
+	height: 320px;
+}
+aside{
+    float: right;
+    width: 295px;
+    border-radius: 10px; 
+}
+footer{
+    width: 960px;
+}
+p{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.left{
+	margin-top: 10px;
+	float: left;
+}
+.left img{
+	margin:10px 20px 10px 10px;
+}
+.right {
+	padding-top: 45px;
+}
+
+.button_1 {
+	background-color: #404040;
+	color: white;
+	border-color:#404040;
+	border-radius:4px;
+	margin: 10px;
+	padding: 5px 8px;
+}
+.pages{
+    width: 960px;
+    clear: both;
+    margin-top: 20px;
+}
+.pages ul li{
+    display: inline-block;
+    float: left;
+    margin: 10px;
+}
+.pages ul li a{
+    font-size: 12px;
+}
+.pride{
+    margin-top: 10px;
+    background-color: #2f2f31;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.advertising{
+    margin-top: 10px;
+    background-color: #2f2f31;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.vk{
+    margin-top: 20px;
+    background-color: #2f2f31;
+    font-weight: bold;
+    height: 390px;
+    border-radius: 10px;
+}
+.vk p{
+    padding-top: 18px;
+    text-align: center;
+}
+.tags{
+    margin-top: 20px;
+    background-color: #2f2f31;
+    height: 265px;
+    padding: 20px 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.a_1 {
+	text-decoration: none;
+	color: white;
+	font-size: 12px; 
+}
+.a_2 {
+	text-decoration: none;
+	color: white;
+	font-size: 15px; 
+}
+.a_3 {
+	text-decoration: none;
+	color: white;
+	font-size: 20px; 
+}
+.a_4 {
+	text-decoration: none;
+	color: white;
+	font-size: 24px; 
+}
+.tags a:hover {
+	color: #86bc04; 
+}
+footer{
+    margin-top: 20px;
+}
+.popular {
+    margin-top:10px;
+    background-color: #2f2f31;
+    border-radius: 10px;
+}
+.popular ul li a{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    border-bottom: 1px dotted #8fc902;
+    margin-left: 20px;
+}
+article input{
+    background-color: #8fc902;
+    border-radius: 5px;
+    border-color: #8fc902;
+    color: white;
+}
+#vk_groups {
+    margin-left: 47px;
+}
+.site_1 {
+	float: right;
+}
+.site_1 p {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-right: 20px;
+ }
+.site_1 p span {
+	color:#86bc04;
+
+}
+article {
+    border-radius: 10px; 
+}
+footer ul li{
+    display: inline-block;
+    float: left;
+    margin: 20px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+footer ul li a:hover{
+    color: #8fc902;
+}
+
+footer {
+    width: 960px;
+    clear: both;
+}

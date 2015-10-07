@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Semantic elements</title>
+    </head>
+    <body bgcolor="#FFE4E1">
+         
+         <H1> Semantic elements </H1>
+         
+         <p>Defines an article in the document &lt article &gt</p>
+         <p>Defines content aside from the page content &lt aside &gt</p>
+         <p>Defines a part of text that might be formatted in a different direction from other text &lt bdi &gt</p>
+         <p>Defines additional details that the user can view or hide &lt details&gt</p>
+         <p>Defines a dialog box or window &lt dialog&gt</p>
+         <p>Defines a footer for the document or a section &lt footer&gt</p>
+         <p>Defines a header for the document or a section &lt header&gt</p>
+         <p>Defines the main content of a document &lt main &gt</p>
+         <p>Defines marked or highlighted text &lt mark &gt</p>
+         <p>Defines a command/menu item that the user can invoke from a popup menu &lt menuitem &gt</p>
+         <p>Defines a scalar measurement within a known range (a gauge) &lt meter &gt</p>
+         <p>Defines navigation links in the document &lt nav &gt</p>
+         <p>Defines the progress of a task &lt progress &gt </p>
+         <p>Defines what to show in browsers that do not support ruby annotations &lt rp &gt</p>
+         <p>Defines an explanation/pronunciation of characters (for East Asian typography) &lt rt&gt</p>
+         <p>Defines a ruby annotation (for East Asian typography) &lt ruby &gt</p>
+         <p>Defines a section in the document &lt section &gt</p>
+         <p>Defines a visible heading for a &lt details) element &lt summary &gt</p>
+         <p>Defines a date/time &lt time &gt</p>
+         <p>Defines a possible line-break &lt wbr &gt</p>
+         <p>Element represents stress emphasis of its contents&lt em &gt</p>
+         <p>Element represents strong importance, seriousness, or urgency for its contents &lt strong &gt</p>
+         <p>Element represents side comments such as small print &lt small &gt</p>
+         <p>Element represents contents that are no longer accurate or no longer relevant &lt s &gt</p>
+         <p>Hyperlinks &lt a &gt</p>
+         <p>Titles of works &lt cite &gt</p>
+         <p>Quotations &lt q &gt</p>
+         <p>Defining instance &lt dfn &gt</p>
+         <p>Abbreviations &lt abbr &gt</p>
+         <p>Computer code &lt code &gt</p>
+         <p>Variables &lt var &gt</p>
+         <p>Computer output &lt samp &gt</p>
+         <p>User input &lt kbd &gt</p>
+         <p>Subscripts &lt sub &gt</p>
+         <p>Superscripts &lt sup &gt</p>
+         <p>Alternative voice &lt i &gt</p>
+         <p>Keywords &lt b &gt</p>
+         <p>Highlight &lt mark &gt</p>
+         <p>Text directionality formatting &lt bdo &gt</p>
+         <p>Other &lt span &gt</p>
+         <p>Line break &lt br &gt</p>
+         <p>Annotations &lt u &gt</p>
+         <p>Element marks a ruby text container for ruby text components in a ruby annotation &lt rtc &gt</p>
+         <p>Element represents text that has been inserted into the document after it has been published &lt ins &gt</p>
+         
+         
+    </body>
+
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Input Types</title>
+    </head>
+    <body bgcolor="#F0FFFF">
+        <h1><font color="#2F4F4F"> Input Types </font></h1>
+        <h3><font color="#006400"> Input Type: Text </font></h3>
+    	<form>
+            First name:<br>
+            <input type="text" name="firstname">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname">
+            <br>
+            <input type="submit">
+            </form>
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: Password </font></h3>
+        <form>
+            User name:<br>
+            <input type="text" name="username">
+            <br>
+            User password:<br>
+            <input type="password" name="psw">
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: Submit </font></h3>
+        <form action="action_page.php">
+            First name:<br>
+            <input type="text" name="firstname" value="Vita">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Rapita">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form> 
+        <br>
+        <h3><font color="#006400"> Input Type: Radio </font></h3>
+        <form action="action_page.php">
+            <input type="radio" name="sex" value="male" checked>Male
+            <br>
+            <input type="radio" name="sex" value="female">Female
+            <br>
+            <br>
+            <input type="submit">
+        </form> 
+        <br>
+        <h3><font color="#006400"> Input Type: Checkbox </font></h3>
+        <form action="action_page.php">
+            <input type="checkbox" name="vehicle1" value="Bike">Bread
+            <br>
+            <input type="checkbox" name="vehicle2" value="Car">Milk
+            <br>
+            <input type="checkbox" name="vehicle2" value="Car">Butter
+            <br>
+            <br>
+            <input type="submit">
+        </form> 
+        <br>
+        <h3><font color="#006400"> Input Type: Button </font></h3>
+        <input type="button" onclick="alert('Hello everybody!')" value="Click Me!">
+        <br>
+        <br> 
+        <h3><font color="#006400"> Input Type: Number </font></h3>
+        <form>
+            Quantity (between 1 and 5):
+            <input type="number" name="quantity" min="1" max="5">
+        </form>
+        <br>
+        <form action="action_page.php">
+            Quantity:
+            <input type="number" name="points"
+            min="0" max="500" step="50" value="50">
+            <input type="submit">
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: Date </font></h3>
+        <form>
+            Birthday:
+            <input type="date" name="bday">
+        </form>
+        <br>
+        <form>
+            Enter a date before 1980-01-01:
+            <input type="date" name="bday" max="1979-12-31"><br>
+            Enter a date after 2000-01-01:
+            <input type="date" name="bday" min="2000-01-02"><br>
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: Color </font></h3>
+        <form>
+            Select your favorite color:
+            <input type="color" name="favcolor">
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: Range </font></h3>
+        <form>
+            <input type="range" name="points" min="0" max="25">
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: Month </font></h3>
+        <form>
+            Birthday (month and year):
+            <input type="month" name="bdaymonth">
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: Week </font></h3>
+        <form>
+            Select a week:
+            <input type="week" name="week_year">
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: Time </font></h3>
+        <form>
+            Select a time:
+            <input type="time" name="usr_time">
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: Datetime </font></h3>
+        <form>
+            Birthday (date and time):
+            <input type="datetime" name="bdaytime">
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: Datetime-local </font></h3>
+        <form>
+            Birthday (date and time):
+            <input type="datetime-local" name="bdaytime">
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: Email </font></h3>
+        <form>
+            E-mail:
+            <input type="email" name="email">
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: Search </font></h3>
+        <form>
+            Search Google:
+            <input type="search" name="googlesearch">
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: Phone </font></h3>
+        <form>
+            Telephone:
+            <input type="tel" name="usrtel">
+        </form>
+        <br>
+        <h3><font color="#006400"> Input Type: URL </font></h3>
+        <form>
+            Add your homepage:
+            <input type="url" name="homepage">
+        </form>
+
+
+
+    </body>
+    </html>
