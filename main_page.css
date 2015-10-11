@@ -46,8 +46,13 @@ table {
 /*мої стилі */
 
 body {
-	background-color: #242426;
-	color:white;
+	background-image: url(images/background.jpg);
+    color: white;
+    font-family: sans-serif;
+    opacity: 0,5;
+    background: #45484d; /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, 
+    color-stop(0%,#45484d), color-stop(32%,#000000));
 }
 
 .main {
@@ -78,6 +83,10 @@ a {
 	color: white;
 	border-color:#86bc04;
 	border-radius:4px;
+	text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
 }
 .menu {
 	height: 36px;
@@ -127,6 +136,8 @@ a {
 .menu2 {
 	float: left;
 	background-color: #86bc04;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 	height:55px;
 	width:960px;
 }
@@ -143,7 +154,7 @@ a {
 	color: white;
 	display: block;
     text-decoration: none;
-    border-right: 1px ridge;
+    border-right: 1px ridge #78aa04;
     padding: 19px 20px;
 }
 .menu2 ul li a:hover {
@@ -158,7 +169,7 @@ a {
 .top {
 	margin-top: 20px;
 	width: 960px;
-	height:250px;
+	height:260px;
 	border-radius: 10px;
 	background-color: #2f2f31;
 }
@@ -172,8 +183,23 @@ a {
 	height: 200px;
 	width: 300px;
 	padding-right:10px;
-	margin-top: 10px;
-
+	margin-top: 20px;
+}
+.ellipsis {
+	margin-bottom: 12px;
+ 	margin-top: 4px;
+ 	color: #8C8C8C;
+ 	display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 99px;
+    margin: 4px auto;
+    font-size: 14px;
+    line-height: 1;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .top_p span {
 	color:#86bc04;
@@ -181,12 +207,14 @@ a {
 	font-size: 15px;
 	font-weight: bold;
 }
+.top_p h4{
+	font-weight: bold;
+}
 .img {
 	border-radius: 18px;
+	border: 1px color white;
 }
-.img_1 {
-	border-radius: 16px;
-}
+
 .content {
 	margin-top: 10px;
 	float: left;
@@ -197,14 +225,21 @@ a {
     background-color: #2f2f31; 
     border-radius: 10px  
 }
-.news p{
+.news_p {
+	height: 47px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #3f3f42;
+	margin-bottom: 10px;
+}
+.news_p p{
 	font-weight: bold;
 	font-family: sans-serif;
 	padding: 10px 10px 10px 50px;
-	border-radius: 15px;
 }
 hr{
-	color: #2e2e30;
+	height: 1px;
+	border-color: #464646;
 	margin: 10px;
 }
 .news ul li{
@@ -222,7 +257,7 @@ hr{
 article {
 	background-color: #2f2f31;
 	margin-top: 10px;
-	height: 320px;
+	height: 360px;
 }
 aside{
     float: right;
@@ -241,7 +276,7 @@ p{
 	float: left;
 }
 .left img{
-	margin:10px 20px 10px 10px;
+	margin:23px 20px 20px 20px;
 }
 .right {
 	padding-top: 45px;
@@ -255,51 +290,105 @@ p{
 	margin: 10px;
 	padding: 5px 8px;
 }
+.star {
+    width: 200px;
+    margin: 50px auto;
+}
+.star {
+    font-size: 40px;
+    color: yellow;
+    cursor: pointer;
+}
+span:hover:before {
+    content: "\2605";
+    position: absolute;
+    color: yellow;
+}
+.right h4 {
+	font-weight: bold;
+}
+
 .pages{
     width: 960px;
     clear: both;
     margin-top: 20px;
+    margin-left: 150px;
 }
 .pages ul li{
     display: inline-block;
-    float: left;
     margin: 10px;
 }
 .pages ul li a{
     font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.pages ul li a:hover {
+    color: #424242;
+	background-color: white; 
+
+}
+.popular {
+    margin-top:10px;
+    background-color: #2f2f31;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.popular ul li {
+	padding-left: 20px;
+}
+.popular ul li a{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    border-bottom: 1px dotted #8fc902;
 }
 .pride{
     margin-top: 10px;
     background-color: #2f2f31;
-    padding: 20px 20px;
+    padding-bottom: 20px;
     border-radius: 10px;
+}
+.pride_1{
+    margin-bottom: 10px;
+}
+.pride_1 img{
+	border-radius: 10px;
+    float:left;
+    padding: 10px 10px 10px 20px;
+
+}
+.pride_1 p{
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 15px;
 }
 .advertising{
     margin-top: 10px;
+    padding-bottom: 20px;
     background-color: #2f2f31;
-    padding: 20px 20px;
-    border-radius: 10px;
+    border-radius: 10px;    
+}
+.advertising a{
+	padding-left: 20px;
 }
 .vk{
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #2f2f31;
-    font-weight: bold;
-    height: 390px;
     border-radius: 10px;
-}
-.vk p{
-    padding-top: 18px;
-    text-align: center;
+    padding-bottom: 20px;
 }
 .tags{
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #2f2f31;
-    height: 265px;
-    padding: 20px 20px;
-    text-align: center;
-    font-weight: bold;
     border-radius: 10px;
+    padding-bottom: 10px;
 }
+.tags a{
+	padding-left: 20px;
+}
+
 .a_1 {
 	text-decoration: none;
 	color: white;
@@ -326,19 +415,6 @@ p{
 footer{
     margin-top: 20px;
 }
-.popular {
-    margin-top:10px;
-    background-color: #2f2f31;
-    border-radius: 10px;
-}
-.popular ul li a{
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 25px;
-    text-decoration: none;
-    border-bottom: 1px dotted #8fc902;
-    margin-left: 20px;
-}
 article input{
     background-color: #8fc902;
     border-radius: 5px;
@@ -346,6 +422,7 @@ article input{
     color: white;
 }
 #vk_groups {
+	margin-top: 10px;
     margin-left: 47px;
 }
 .site_1 {
@@ -355,7 +432,7 @@ article input{
     font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 30px;
     padding-right: 20px;
  }
 .site_1 p span {
